@@ -1,201 +1,113 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.65">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 14.7px Arial; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 13.3px 'Helvetica Neue'; -webkit-text-stroke: #000000}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.3px 'Helvetica Neue'; -webkit-text-stroke: #000000}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Helvetica; color: #262524; -webkit-text-stroke: #262524}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.3px 'Helvetica Neue'; color: #1a1a1a; -webkit-text-stroke: #1a1a1a}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.3px 'Helvetica Neue'; color: #1a1a1a; -webkit-text-stroke: #1a1a1a; background-color: #ffffff}
-    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.3px 'Helvetica Neue'; color: #103cc0; -webkit-text-stroke: #103cc0}
-    li.li4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.3px 'Helvetica Neue'; -webkit-text-stroke: #000000}
-    li.li6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.3px 'Helvetica Neue'; color: #fb0007; -webkit-text-stroke: #fb0007}
-    span.s1 {font: 14.7px 'Helvetica Neue'; font-kerning: none; background-color: #ffffff}
-    span.s2 {font-kerning: none; background-color: #ffffff}
-    span.s3 {font-kerning: none}
-    span.s4 {-webkit-text-stroke: 0px #000000}
-    span.s5 {text-decoration: underline ; font-kerning: none}
-    span.Apple-tab-span {white-space:pre}
-    table.t1 {border-collapse: collapse}
-    td.td1 {width: 86.1px; border-style: solid; border-width: 1.0px 0.0px 1.0px 1.0px; border-color: #8ab047 #000000 #8ab047 #8ab047; padding: 0.0px 7.2px 0.0px 7.2px}
-    td.td2 {width: 570.1px; border-style: solid; border-width: 1.0px 1.0px 1.0px 0.0px; border-color: #8ab047 #8ab047 #8ab047 #000000; padding: 0.0px 7.2px 0.0px 7.2px}
-    ul.ul1 {list-style-type: disc}
-    ul.ul2 {list-style-type: circle}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1"><b>MTEC - 2210 </b></span><span class="s2"><b>Game Design and Interactive Media</b></span></p>
-<p class="p2"><span class="s3">Voorhees V-312</span></p>
-<p class="p2"><span class="s3">Wed 6:00-9:15</span></p>
-<p class="p2"><span class="s3">----</span></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3"><b>Instructor</b></span></p>
-<p class="p4"><span class="s3">Charles George </span></p>
-<p class="p5"><span class="s2">CHARLES.GEORGE55@citytech.cuny.edu</span></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3"><b>Overview</b></span></p>
-<p class="p4"><span class="s3">The Goal of this course is to cover Introductory game development through Unity.  We will cover game development, starting from basics of how games are structured up through more intermediate concepts.  We will be working in the Unity Engine.  </span></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3"><b>Course Software (All software has free versions)</b></span></p>
-<ul class="ul1">
-  <li class="li4"><span class="s4"></span><span class="s3">Visual Studio</span></li>
-  <li class="li4"><span class="s4"></span><span class="s3">Unity</span></li>
-  <li class="li4"><span class="s4"></span><span class="s3">Github</span></li>
-</ul>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3"><b>Pre requisites</b></span></p>
-<ul class="ul1">
-  <li class="li4"><span class="s4"></span><span class="s3">Intro to game development course</span></li>
-  <li class="li4"><span class="s4"></span><span class="s3">Rough knowledge of C# scripting and Unity</span></li>
-</ul>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3"><b>Important Dates</b></span></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3">August 28th - September 18th</span></p>
-<ul class="ul1">
-  <li class="li4"><span class="s4"></span><span class="s3">Unity 2D: Topics Include</span></li>
-  <ul class="ul2">
-    <li class="li4"><span class="s4"></span><span class="s3">Introduction to the engine, basic scripting, basic assets and input, first bits of math, basic UI</span></li>
-  </ul>
-  <li class="li6"><span class="s4"><b></b></span><span class="s3"><b>First project presentations - September 18th</b></span></li>
-</ul>
-<p class="p4"><span class="s3">September 28th- October 16th</span></p>
-<ul class="ul1">
-  <li class="li4"><span class="s4"></span><span class="s3">Unity Scripting and fun times<span class="Apple-tab-span">	</span></span></li>
-  <ul class="ul2">
-    <li class="li4"><span class="s4"></span><span class="s3">Unity more advanced Assets, 2D animations and animators, Going deeper on game math, using randomization effectively, Improved UI. </span></li>
-  </ul>
-  <li class="li4"><span class="s4"><b></b></span><span class="s3"><b>OCTOBER 2nd-&gt; Off</b></span></li>
-  <li class="li6"><span class="s4"><b></b></span><span class="s3"><b>Second Project October 16th</b></span></li>
-</ul>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3">October 16th  - 30th </span></p>
-<ul class="ul1">
-  <li class="li4"><span class="s4"></span><span class="s3">Third Unit</span></li>
-  <ul class="ul2">
-    <li class="li4"><span class="s4"></span><span class="s3">More Advanced Programming, Concurrency and timing, Juice, Cameras, Particle Systems</span></li>
-  </ul>
-  <li class="li6"><span class="s4"><b></b></span><span class="s3"><b>Third Project Presentation October 30th</b></span></li>
-</ul>
-<p class="p4"><span class="s3">October 30th -   Nov 20th</span></p>
-<ul class="ul1">
-  <li class="li4"><span class="s4"></span><span class="s3">Flexible topics, I will assess what students feel like they need to learn to complete their final projects.  </span></li>
-</ul>
-<ul class="ul1">
-  <li class="li6"><span class="s4"><b></b></span><span class="s3"><b>Final Project Presentation Nov 20th <br>
-<br>
-</b></span></li>
-</ul>
-<p class="p4"><span class="s3"><b>Help Hours and group work</b></span></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3">I encourage you to ask each other questions, and work together. I want you to understand the process, even if that means looking at someone else's code or getting help.  Similarly for web resources. .  Professional developers use information from all over the web.  At the end of the day the final product must be yours though, You may not fully source a full project and make small changes</span></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3">I will be open for office hours 1 day a week, for 2 hours, Monday evenings from 4-6 pm.  I will also be available via city tech Email, and will run a slack chat room where we can ask questions. Please allow some time for a response, as I may not be able to respond in real time. The course is on Github for lectures, and such here.   The zoom link will be posted to slack</span></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3">https://github.com/CharGeorgeCUNY/2210_Fall_2024</span></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3">Class communication will happen mainly via Slack and email.  If I’m running late, and last minute announcements will happen via slack.  </span></p>
-<p class="p4"><span class="s3">invite link: </span></p>
-<p class="p4"><span class="s3">https://join.slack.com/t/slack-k544284/shared_invite/zt-2pjj8d43m-XVsyhQGpG0ZgocCkQxJZ9A</span></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3">All assignments will be submitted via Github.  Each student will have a repository created for them that they will use to submit assignments.</span></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3"><b>Grading</b></span></p>
-<table cellspacing="0" cellpadding="0" class="t1">
-  <tbody>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p7"><span class="s3"><b>A  Excellent:  </b></span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p8"><span class="s3">Exceptional work for a college student.  Work at this level is thorough, well reasoned, creative, and displays growth understanding and effort</span></p>
-        <p class="p3"><span class="s3"></span><br></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p7"><span class="s3"><b>B  Good:  </b></span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p8"><span class="s3">Competent work for a College student even though some weaknesses are evident.  Demonstrates competency in the key course objectives but shows some indication that understanding of some important issues is less than complete. Shows some level of growth from previous work. </span></p>
-        <p class="p3"><span class="s3"></span><br></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p7"><span class="s3"><b>C</b></span></p>
-        <p class="p7"><span class="s3"><b>Borderline:  </b></span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p8"><span class="s3">Weak work for a college student; meets minimal expectations for understanding and effort and shows no growth from previous projects. </span></p>
-        <p class="p3"><span class="s3"></span><br></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p7"><span class="s3"><b>  D  Deficient.  </b></span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p8"><span class="s3">Inadequate work for a college student; does not meet the minimal expectations for a college student in the course.  Work is inadequately developed or flawed by numerous errors and misunderstanding of important issues.  Student does not demonstrate knowledge or technical competence.</span></p>
-        <p class="p3"><span class="s3"></span><br></p>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top" class="td1">
-        <p class="p7"><span class="s3"><b>F  Fail:  </b></span></p>
-      </td>
-      <td valign="top" class="td2">
-        <p class="p8"><span class="s3">Work fails to meet even minimal expectations for course credit for a graduate student.  Performance has been consistently weak, with serious limits in many areas.  Weaknesses or limits are pervasive.  </span></p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3"><b>Final Grade Rubric:</b></span></p>
-<ul class="ul1">
-  <li class="li4"><span class="s4"><b></b></span><span class="s3"><b>30% Participation</b></span></li>
-  <li class="li4"><span class="s4"><b></b></span><span class="s3"><b>70% Project work</b></span></li>
-</ul>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3"><b>Notes</b></span></p>
-<ul class="ul1">
-  <li class="li4"><span class="s4"><b><i></i></b></span><span class="s3"><b><i>Regular class attendance is important, participation is an important part of the grade.  There will be one unexcused absence per semester, after which points will be removed from the participation score.</i></b></span></li>
-  <li class="li4"><span class="s4"></span><span class="s3">Students are responsible for all material, in all forms, presented during scheduled class times. </span></li>
-  <li class="li4"><span class="s4"></span><span class="s3">Students are required to keep copies of all development assignments throughout the semester. </span></li>
-  <li class="li4"><span class="s4"></span><span class="s3">When working in a group, all group members must possess current versions of the assignment.</span></li>
-  <li class="li4"><span class="s4"></span><span class="s3">The contents of this syllabus may be modified depending on the progress of the course.</span></li>
-  <li class="li4"><span class="s4"></span><span class="s3">Late work will be graded a full letter grade if it’s late more than 24 hours. </span></li>
-</ul>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3"><b>Academic Integrity</b></span></p>
-<p class="p4"><span class="s3">Students who intentionally submit work either not their own or without clear attribution to the original source, fabricate data or other information, engage in cheating, or misrepresentation of academic records may be penalized for academic dishonesty.  According to CUNY’s policy, academic dishonesty will be “subject to review and the possible imposition of penalties in accordance with the standards, practices, and procedures of CUNY and its colleges and schools. Violations may result in failure on a particular assignment, failure in a course, suspension or expulsion from the University, or other penalties.” </span></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p9"><span class="s5"><a href="https://www.cuny.edu/about/administration/offices/legal-affairs/policies-resources/academic-integrity-policy/#:~:text=Academic%20dishonesty%20is%20prohibited%20in,a%20college%20or%20university%20education">https://www.cuny.edu/about/administration/offices/legal-affairs/policies-resources/academic-integrity-policy/#:~:text=Academic%20dishonesty%20is%20prohibited%20in,a%20college%20or%20university%20education</a></span></p>
-<p class="p4"><span class="s3"><br>
-<b>AI Policy</b></span></p>
-<p class="p4"><span class="s3">Don’t let AI write your software.  I will not be able to accept purely AI written purely in software.  I don’t recommend using software like ChatGPT to get help, but I’m not going to try and prevent you from using it.  </span></p>
-<p class="p4"><span class="s3"><br>
-<b>Accessibility</b></span></p>
-<p class="p4"><span class="s3">The College will make reasonable accommodations for persons with documented disabilities. Services are available only to students who are registered and submit appropriate documentation. As your instructor, I am happy to discuss specific needs with you as well.</span></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3"><b>Course Communications</b></span></p>
-<p class="p4"><span class="s3">Students are responsible for having a working email account (which they check regularly), and using the course blackboard account for any and all updates.   </span></p>
-<p class="p3"><span class="s3"></span><br></p>
-<p class="p4"><span class="s3"><b>Religious Observance</b></span></p>
-<p class="p4"><span class="s3">Students should notify instructors at the beginning of the semester about their wishes to observe holidays on days when class sessions are scheduled. Where academic scheduling conflicts prove unavoidable, no student will be penalized for absence due to religious reasons, and alternative means will be sought for satisfying the academic requirements involved. If a suitable arrangement cannot be worked out between the student and the instructor, students and instructors should consult the appropriate department or program director. </span></p>
-<p class="p3"><span class="s3"></span><br></p>
-</body>
-</html>
+MTEC - 2210 Game Design and Interactive Media
+Voorhees V-312
+Wed 6:00-9:15
+----
+
+
+Instructor
+Charles George 
+CHARLES.GEORGE55@citytech.cuny.edu
+
+
+Overview
+The Goal of this course is to cover Introductory game development through Unity.  We will cover game development, starting from basics of how games are structured up through more intermediate concepts.  We will be working in the Unity Engine.  
+
+Course Software (All software has free versions)
+Visual Studio
+Unity
+Github
+
+Pre requisites
+Intro to game development course
+Rough knowledge of C# scripting and Unity
+
+Important Dates
+
+
+August 28th - September 18th
+Unity 2D: Topics Include
+Introduction to the engine, basic scripting, basic assets and input, first bits of math, basic UI
+First project presentations - September 18th
+September 28th- October 16th
+Unity Scripting and fun times	
+Unity more advanced Assets, 2D animations and animators, Going deeper on game math, using randomization effectively, Improved UI. 
+OCTOBER 2nd-> Off
+Second Project October 16th
+
+October 16th  - 30th 
+Third Unit
+More Advanced Programming, Concurrency and timing, Juice, Cameras, Particle Systems
+Third Project Presentation October 30th
+October 30th -   Nov 20th
+Flexible topics, I will assess what students feel like they need to learn to complete their final projects.  
+Final Project Presentation Nov 20th 
+
+
+Help Hours and group work
+
+I encourage you to ask each other questions, and work together. I want you to understand the process, even if that means looking at someone else's code or getting help.  Similarly for web resources. .  Professional developers use information from all over the web.  At the end of the day the final product must be yours though, You may not fully source a full project and make small changes
+
+
+I will be open for office hours 1 day a week, for 2 hours, Monday evenings from 4-6 pm.  I will also be available via city tech Email, and will run a slack chat room where we can ask questions. Please allow some time for a response, as I may not be able to respond in real time. The course is on Github for lectures, and such here.   The zoom link will be posted to slack
+
+https://github.com/CharGeorgeCUNY/2210_Fall_2024
+
+
+Class communication will happen mainly via Slack and email.  If I’m running late, and last minute announcements will happen via slack.  
+invite link: 
+https://join.slack.com/t/slack-k544284/shared_invite/zt-2pjj8d43m-XVsyhQGpG0ZgocCkQxJZ9A
+
+All assignments will be submitted via Github.  Each student will have a repository created for them that they will use to submit assignments.
+
+
+Grading
+A  Excellent:  
+Exceptional work for a college student.  Work at this level is thorough, well reasoned, creative, and displays growth understanding and effort
+
+
+B  Good:  
+Competent work for a College student even though some weaknesses are evident.  Demonstrates competency in the key course objectives but shows some indication that understanding of some important issues is less than complete. Shows some level of growth from previous work. 
+
+
+C
+Borderline:  
+Weak work for a college student; meets minimal expectations for understanding and effort and shows no growth from previous projects. 
+
+
+  D  Deficient.  
+Inadequate work for a college student; does not meet the minimal expectations for a college student in the course.  Work is inadequately developed or flawed by numerous errors and misunderstanding of important issues.  Student does not demonstrate knowledge or technical competence.
+
+
+F  Fail:  
+Work fails to meet even minimal expectations for course credit for a graduate student.  Performance has been consistently weak, with serious limits in many areas.  Weaknesses or limits are pervasive.  
+
+
+Final Grade Rubric:
+30% Participation
+70% Project work
+
+Notes
+Regular class attendance is important, participation is an important part of the grade.  There will be one unexcused absence per semester, after which points will be removed from the participation score.
+Students are responsible for all material, in all forms, presented during scheduled class times. 
+Students are required to keep copies of all development assignments throughout the semester. 
+When working in a group, all group members must possess current versions of the assignment.
+The contents of this syllabus may be modified depending on the progress of the course.
+Late work will be graded a full letter grade if it’s late more than 24 hours. 
+
+Academic Integrity
+Students who intentionally submit work either not their own or without clear attribution to the original source, fabricate data or other information, engage in cheating, or misrepresentation of academic records may be penalized for academic dishonesty.  According to CUNY’s policy, academic dishonesty will be “subject to review and the possible imposition of penalties in accordance with the standards, practices, and procedures of CUNY and its colleges and schools. Violations may result in failure on a particular assignment, failure in a course, suspension or expulsion from the University, or other penalties.” 
+
+https://www.cuny.edu/about/administration/offices/legal-affairs/policies-resources/academic-integrity-policy/#:~:text=Academic%20dishonesty%20is%20prohibited%20in,a%20college%20or%20university%20education
+
+AI Policy
+Don’t let AI write your software.  I will not be able to accept purely AI written purely in software.  I don’t recommend using software like ChatGPT to get help, but I’m not going to try and prevent you from using it.  
+
+Accessibility
+The College will make reasonable accommodations for persons with documented disabilities. Services are available only to students who are registered and submit appropriate documentation. As your instructor, I am happy to discuss specific needs with you as well.
+
+Course Communications
+Students are responsible for having a working email account (which they check regularly), and using the course blackboard account for any and all updates.   
+
+Religious Observance
+Students should notify instructors at the beginning of the semester about their wishes to observe holidays on days when class sessions are scheduled. Where academic scheduling conflicts prove unavoidable, no student will be penalized for absence due to religious reasons, and alternative means will be sought for satisfying the academic requirements involved. If a suitable arrangement cannot be worked out between the student and the instructor, students and instructors should consult the appropriate department or program director. 
+
