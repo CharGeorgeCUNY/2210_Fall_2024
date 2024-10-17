@@ -8,13 +8,16 @@ public class PlayerMover : MonoBehaviour
     public float RotationSpeed;
     private Rigidbody2D MyRigidbody2D;
     public GameObject BulletPrefab;
+    public AudioSource ShipSoundSource;
+
+    public AudioClip ExplosionSound;
 
     public  List<Bullet> Bullets = new List<Bullet>();
     // Start is called before the first frame update
     void Start()
     {
         MyRigidbody2D = GetComponent<Rigidbody2D>();
-       
+        ShipSoundSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -33,6 +36,8 @@ public class PlayerMover : MonoBehaviour
         {
             GameObject myBullet =  GameObject.Instantiate(BulletPrefab, transform.position, transform.rotation);
             Bullets.Add(myBullet.GetComponent<Bullet>());
+            ShipSoundSource.Play();
+            
         }
 
         if (Input.GetKeyDown(KeyCode.X))
@@ -47,7 +52,10 @@ public class PlayerMover : MonoBehaviour
                 }
             }
             Bullets.Clear();
+            AudioSource.PlayClipAtPoint(ExplosionSound, transform.position);
+            //ShipSoundSource.PlayOneShot(ExplosionSound);
         }
+        
         
     }
 }
