@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7577739410872462829}
   - component: {fileID: 6102527770002668856}
   - component: {fileID: 4554547661052275321}
+  - component: {fileID: 8211226234746241065}
   - component: {fileID: 3007973604978822908}
   - component: {fileID: 4632673502845453300}
   m_Layer: 0
@@ -102,7 +103,24 @@ MonoBehaviour:
   Speed: 4
   RotationSpeed: -1080
   BulletPrefab: {fileID: 7293463271077017804, guid: 3b5ed7c9f879b4430acf4c8f6f34e825, type: 3}
+  ShipSoundSource: {fileID: 0}
+  ExplosionSound: {fileID: 0}
   Bullets: []
+--- !u!114 &8211226234746241065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9140750339563623988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aef74cf16bffd489f8ed31b9e30e9947, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlashTime: 0.2
+  EndColor: {r: 0.9056604, g: 0.19223925, b: 0.19223925, a: 1}
+  StartColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!50 &3007973604978822908
 Rigidbody2D:
   serializedVersion: 4
@@ -141,7 +159,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 910e9331eda1e40deaeb381ab7d714a6, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

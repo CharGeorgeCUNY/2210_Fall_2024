@@ -18,6 +18,7 @@ public class PlayerMover : MonoBehaviour
     {
         MyRigidbody2D = GetComponent<Rigidbody2D>();
         ShipSoundSource = GetComponent<AudioSource>();
+        
     }
 
     // Update is called once per frame
@@ -55,7 +56,7 @@ public class PlayerMover : MonoBehaviour
             AudioSource.PlayClipAtPoint(ExplosionSound, transform.position);
             //ShipSoundSource.PlayOneShot(ExplosionSound);
         }
-        
-        
     }
+
+    
 }
