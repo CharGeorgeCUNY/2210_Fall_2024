@@ -9,8 +9,9 @@ public class PlayerMover : MonoBehaviour
     private Rigidbody2D MyRigidbody2D;
     public GameObject BulletPrefab;
     public AudioSource ShipSoundSource;
-
+    public GameObject ThrusterPoint;
     public AudioClip ExplosionSound;
+    public ParticleSystem exhaust;
 
     public  List<Bullet> Bullets = new List<Bullet>();
     // Start is called before the first frame update
@@ -28,9 +29,17 @@ public class PlayerMover : MonoBehaviour
         float fullRotation = rotation * RotationSpeed;
         MyRigidbody2D.MoveRotation(MyRigidbody2D.rotation + (fullRotation * Time.deltaTime));
 
-        if(Input.GetAxis("Vertical") > 0f)
+        if (Input.GetAxis("Vertical") > 0f)
         {
             MyRigidbody2D.AddForce(transform.up * (Speed * Input.GetAxis("Vertical")));
+            exhaust.Emit(1);
+            RaycastHit2D hit = Physics2D.Raycast(ThrusterPoint.transform.position, -transform.up, 3.0f);
+            Debug.DrawRay(transform.position, -transform.up*3.0f);
+            if (hit && hit.collider.gameObject.GetComponent<Asteroid>())
+            {
+                hit.rigidbody.AddForce(-transform.up * 3.0f);
+               
+            }
         }
 
         if (Input.GetButtonDown("Fire1"))
@@ -40,8 +49,19 @@ public class PlayerMover : MonoBehaviour
             ShipSoundSource.Play();
             
         }
+        if (Input.GetButtonDown("Fire2"))
+        {
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.up, 3.0f);
+            Debug.DrawRay(transform.position, transform.up * 3.0f);
+            if (hit && hit.collider.gameObject.GetComponent<Asteroid>())
+            {
+                Destroy(hit.collider.gameObject);
+                GameManager.GetGameManager().IncrementScore();
 
-        if (Input.GetKeyDown(KeyCode.X))
+            }
+        }
+
+            if (Input.GetKeyDown(KeyCode.X))
         {
             //   Destroy(Bullets[0]);
             //   Destroy(Bullets[1]);
