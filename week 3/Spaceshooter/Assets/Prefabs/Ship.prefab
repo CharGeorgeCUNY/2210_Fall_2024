@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2481308761987819438}
   - component: {fileID: 58983638087113559}
+  - component: {fileID: 2240472698986230763}
   m_Layer: 0
   m_Name: ThrusterPoint
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 548533430, guid: 297d095dffacd487cbfe842edff91311, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -84,6 +85,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2240472698986230763
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8456545570622016001}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &9140750339563623988
 GameObject:
   m_ObjectHideFlags: 0
@@ -192,6 +214,7 @@ MonoBehaviour:
   ShipSoundSource: {fileID: 0}
   ThrusterPoint: {fileID: 8456545570622016001}
   ExplosionSound: {fileID: 0}
+  exhaust: {fileID: 0}
   Bullets: []
 --- !u!114 &5014064287032407729
 MonoBehaviour:

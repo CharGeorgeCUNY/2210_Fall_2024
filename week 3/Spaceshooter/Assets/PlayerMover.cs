@@ -12,6 +12,7 @@ public class PlayerMover : MonoBehaviour
     public GameObject ThrusterPoint;
     public AudioClip ExplosionSound;
     public ParticleSystem exhaust;
+    public GameObject fire;
 
     public  List<Bullet> Bullets = new List<Bullet>();
     // Start is called before the first frame update
