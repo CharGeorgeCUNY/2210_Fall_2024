@@ -21,7 +21,7 @@ public class PlayerMover : MonoBehaviour
         MyRigidbody2D = GetComponent<Rigidbody2D>();
         ShipSoundSource = GetComponent<AudioSource>();
         transform.localScale = Vector3.zero;
-        
+        StartCoroutine(GrowShip(.5f));
     }
 
     // Update is called once per frame
@@ -76,7 +76,7 @@ public class PlayerMover : MonoBehaviour
                     Destroy(singleBullet.gameObject);
                 }
             }
-            StartCoroutine(GrowShip(3f));
+            //StartCoroutine(GrowShip(3f));
             Bullets.Clear();
             AudioSource.PlayClipAtPoint(ExplosionSound, transform.position);
             //ShipSoundSource.PlayOneShot(ExplosionSound);

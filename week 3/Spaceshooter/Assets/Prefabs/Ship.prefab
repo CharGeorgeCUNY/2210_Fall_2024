@@ -121,6 +121,7 @@ GameObject:
   - component: {fileID: 8211226234746241065}
   - component: {fileID: 3007973604978822908}
   - component: {fileID: 4632673502845453300}
+  - component: {fileID: 229612295729268826}
   m_Layer: 0
   m_Name: Ship
   m_TagString: Untagged
@@ -215,6 +216,7 @@ MonoBehaviour:
   ThrusterPoint: {fileID: 8456545570622016001}
   ExplosionSound: {fileID: 0}
   exhaust: {fileID: 0}
+  fire: {fileID: 8456545570622016001}
   Bullets: []
 --- !u!114 &5014064287032407729
 MonoBehaviour:
@@ -369,3 +371,38 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!70 &229612295729268826
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9140750339563623988}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.056206822}
+  m_Size: {x: 0.48570698, y: 0.70651746}
+  m_Direction: 0

@@ -18,7 +18,8 @@ public class Asteroid : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        GetComponent<Animator>().Play("Explosion");
+        Destroy(collision.gameObject);
+        GetComponent<Animator>().SetTrigger("Destroyed");
     }
 
     public void DestroyMe()
